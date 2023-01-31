@@ -1,0 +1,502 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  background-image: url(..//Imagenes/blob-scene-haikei.svg);
+  background-repeat: no-repeat;
+  background-size: calc(50% * 20);
+}
+
+
+.main img {
+  width: 48px;
+  height: 48px;
+  top: 20px;
+  margin: 0 10px 0 0;
+}
+
+.checkbtn {
+  font-size: 30px;
+  color: #fff;
+  cursor: pointer;
+  display: none;
+  text-align: center;
+}
+
+#check {
+  display: none;
+}
+
+nav {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  width: 100%;
+  height: 40px;
+  top: 5px;
+}
+
+nav ul {
+  text-align: center;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 5px 15px 0 0;
+}
+
+nav ul li a {
+  font-size: 1.5em;
+  text-decoration: none;
+  color: #eee;
+}
+
+nav a:hover {
+  background: #0082e6;
+  position: relative;
+  transition: 0.5s;
+}
+nav img {
+  margin-right: 25px;
+}
+
+.content {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-content: center;
+}
+
+.content video {
+  width: 50%;
+  height: 300px;
+  margin: 0 0 15px 0;
+}
+
+.valores {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.valores img {
+  margin: 70px auto;
+  width: 350px;
+  height: 350px;
+}
+
+.p1 {
+  margin: -50px 0 60px 0;
+  color: #eee;
+  text-align: center;
+  font: 1.5em sans-serif;
+}
+.p2 {
+  margin: -50px 0 20px 0;
+  color: #eee;
+  text-align: center;
+  font: 1.5em sans-serif;
+}
+
+.p3 {
+  margin: -50px 0 20px 0;
+  color: #eee;
+  text-align: center;
+  font: 1.5em sans-serif;
+}
+
+.p4 {
+  margin: -50px 0 20px 0;
+  color: #eee;
+  text-align: center;
+  font: 1.5em sans-serif;
+}
+
+.valores h1 {
+  color: #eee;
+  text-align: center;
+  margin: 20px 0 50px 0;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  bottom: 0;
+  background: #002233;
+  color: #eee;
+}
+
+.footer-logo img {
+  width: 30%;
+  height: 200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.redes {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-top: 5px;
+}
+
+.bi-facebook {
+  margin: 0 10px 0 0;
+  color: #3b5998;
+  width: 60px;
+  height: 60px;
+}
+
+.derechos {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.diseño {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.diseño span {
+  margin-left: 5px;
+}
+
+.diseño span a {
+  color: #fbae3c;
+}
+
+.btnScrollToTop {
+  text-align: center;
+  right: 10px;
+  bottom: 10px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: #fbae3c;
+  outline: none;
+  cursor: pointer;
+  position: fixed;
+  border: none;
+  color: #fff;
+}
+
+.menu {
+  width: 100%;
+  margin: 30px 0 0 0;
+}
+
+.menu img {
+  top: 30px;
+}
+
+.foto1,
+.foto2,
+.foto3,
+.foto4,
+.foto5,
+.foto6,
+.foto7,
+.foto8 {
+  width: 50%;
+  height: 500px;
+  float: right;
+}
+
+.servicios {
+  height: 100vh;
+  width: 100%;
+  background-size: 100%;
+}
+
+.servicios h1 {
+  color: #eee;
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 5px;
+}
+
+.charcuteria img,
+.postres img,
+.meals img {
+  width: 50%;
+  height: 300px;
+}
+
+.postres h1 {
+  color: #eee;
+  text-align: center;
+  margin-top: 25px;
+}
+
+.postres video {
+  width: 50%;
+  height: 300px;
+}
+
+.catering h1 {
+  color: #eee;
+  text-align: center;
+  margin-top: 25px;
+}
+
+.postres,
+.catering {
+  background-image: url("../Imagenes/blob-scene-haikei.svg");
+}
+
+.meals h1,
+.meal-p {
+  color: #eee;
+  text-align: center;
+  background-image: url("../Imagenes/blob-scene-haikei.svg");
+}
+
+.dieta,
+.dieta2 {
+  width: 50%;
+  height: 500px;
+  float: right;
+}
+
+.char1,
+.char2,
+.char3,
+.char4,
+.char5,
+.char6,
+.char7,
+.char8,
+.char9,
+.char10,
+.char11,
+.char12,
+.char13 {
+  width: 50%;
+  height: 500px;
+  float: right;
+}
+
+.about h1 {
+  text-align: center;
+  color: #eee;
+  margin: 30px 0 20px 0;
+}
+
+.about p {
+  text-align: center;
+  color: #eee;
+  height: 300px;
+  font-size: 1.5em
+}
+
+/*Se utiliza los media queries para diferentes pixeles logrando el responsive de la pagina de*/
+
+@media only screen and (max-width: 768px) {
+  body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-height: 100vh;
+    box-sizing: border-box;
+  }
+  html {
+    background-image: url(..//Imagenes/blob-scene-haikei.svg);
+    background-size: calc(50% * 25);
+    width: 100%;
+    height: 100%;
+  }
+  .central{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .checkbtn {
+    display: block;
+  }
+
+  ul {
+    position: fixed;
+    width: 100%;
+    height: 80vh;
+    background: #002233;
+    top: 35px;
+    left: -100%;
+    transition: all 0.7s;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    justify-content: space-around;
+    margin: 0;
+  }
+
+  nav ul li {
+    margin: 0;
+  }
+
+  nav ul li a {
+    top: 0;
+  }
+
+  nav img {
+    display: none;
+  }
+
+  #check:checked ~ ul {
+    left: 0;
+  }
+
+  .valores {
+    width: 100%;
+  }
+
+  .valores img {
+    width: 50%;
+    height: 280px;
+    margin: 30px auto;
+  }
+  .valores h1 {
+    margin-bottom: 10px;
+  }
+  .p1,
+  .p2,
+  .p3,
+  .p4 {
+    display: flex;
+    width: 100%;
+    margin: 15px 0 20px 5px;
+    text-align: center;
+  }
+  .content {
+    width: 100%;
+    left: 0;
+    margin: 0ch;
+  }
+  .content video {
+    width: 100%;
+    margin: 0;
+  }
+    .redes {
+    margin-top: 10px;
+  }
+
+  .menu img {
+    width: 50%;
+    height: 200px;
+  }
+  .derechos {
+    width: 100%;
+  }
+
+  .servicios {
+    width: 100%;
+    height: auto;
+  }
+
+  .servicios img {
+    width: 50%;
+    height: 300px;
+  }
+
+  .postres {
+    width: 100%;
+    height: auto;
+  }
+  .postres h1 {
+    font-size: 2em;
+  }
+  .postres img {
+    width: 50%;
+    height: 300px;
+  }
+  .postres video {
+    width: 50%;
+    height: 300px;
+  }
+  .catering {
+    width: 100%;
+  }
+
+  .catering img {
+    width: 50%;
+    height: 300px;
+  }
+
+  .meals {
+    width: 100%;
+  }
+  .meal-p{
+    font-size: 1.5em;
+  }
+  .meals img {
+    width: 50%;
+    height: 300px;
+  }
+  
+  div.about p{
+    font-size: 1.5em;
+    height: 350px;
+  }
+  footer {
+    bottom: 0;
+    height: auto;
+  }
+  .footer-logo img {
+    width: 100%;
+    margin: 0;
+  }
+}
+
+@media (min-width: 1024px){
+  body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-height: 100vh;
+    box-sizing: border-box;
+  }
+  html {
+    background-image: url(..//Imagenes/blob-scene-haikei.svg);
+    background-repeat: no-repeat;
+    background-size: calc(50% * 20);
+    width: 100%;
+    height: 100%;
+  }
+  div.about h1{
+    font-size: 1.5em;
+  }
+  div.about p{
+    font-size: 2.5em;
+    height: 600px;
+  }
+  footer{
+    bottom: 0;
+    height: auto;
+ }
+ .derechos,
+ .diseño{
+   font-size: 1.5em;
+ }
+}
